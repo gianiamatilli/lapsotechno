@@ -1,0 +1,87 @@
+*{
+    
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+.row{
+    flex-wrap: wrap;
+    display: flex;
+    padding: 5px;
+}
+.column{
+    flex: 25%;
+}
+.column img{
+    margin-top: 5px;
+}
+@media (max-width: 600px){
+    .column{
+        flex: 100%;
+    }
+}
+h2{
+    color: black;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+#boton{
+    background: #31384A;
+    color: #fff;
+    padding: 20px;
+}
+
+body{
+    font-family: 'Cormorant Garamond', serif;
+   margin: 0;
+   padding: 0;
+}
+form{
+    width: 450px;
+    margin: auto;
+    background: transparent;
+}
+
+
+.ewk_navbar{
+    background-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+
+.ewk_cont_sec_1{
+    padding: 10%;
+}
+
+.ewk_cont_sec_1_link{
+    padding: 5%;
+}
+.ewk_cont_sec_1_link a{
+    width: 200px;
+}
+.ewk_cont_sec_1 hr{
+    border-top: 1px solid rgba(1, 1, 1, 0.3);
+}
+.team{
+    background-color: transparent;
+    color: black;
+}
+.caja{
+    border:1px solid rgb(70, 69, 69);
+    color:black;
+    font-weight: bold;
+    width: 300px;
+    height: 300px;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+}
